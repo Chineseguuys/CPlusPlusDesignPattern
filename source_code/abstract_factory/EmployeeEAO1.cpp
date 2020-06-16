@@ -20,6 +20,8 @@ public:
             new SqlCommand();
         command->CommandText = "....";
 
+        command->SetConnection(connection); // 命令和连接是相关的
+
         SqlDataReader* reader = command->ExecuteReader();
         while(reader->Read())
         {
