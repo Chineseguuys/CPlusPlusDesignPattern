@@ -1,5 +1,7 @@
 // FileSplitter.cpp
 
+class string {};
+
 // 抽象的基类
 class IProgress
 {

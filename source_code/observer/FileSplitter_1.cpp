@@ -1,5 +1,9 @@
 // FileSplitter.cpp
 
+#include <string>
+#include <vector>
+using namespace std;
+
 // 抽象的基类
 class IProgress
 {
